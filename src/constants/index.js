@@ -32,7 +32,7 @@ const keySet = [[
     value: '7'
   },
   {
-    text: '*',
+    text: 'X',
     value: '*',
     customClass: 'operator'
   }],[
