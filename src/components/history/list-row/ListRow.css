@@ -1,0 +1,8 @@
+.list-row {
+  height: 4rem;
+  text-align: right;
+  min-height: 4rem;
+  background-color: #f1c0d6;
+  overflow-x: scroll;
+  white-space: nowrap;
+}

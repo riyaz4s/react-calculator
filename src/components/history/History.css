@@ -1,0 +1,13 @@
+.history {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  max-height: 32rem;
+  min-height: 32rem;
+}
+
+.no-entry {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #565f5f;
+}

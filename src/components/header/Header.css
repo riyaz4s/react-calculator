@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  background-color: #a72360;
+  color: white;
+}
+
+.title {
+  flex: 10;
+}

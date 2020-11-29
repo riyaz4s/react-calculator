@@ -1,6 +1,5 @@
-import Button from './button/Button';
 import KeyboardRow from './keyboard-row/KeyboardRow';
-import { keySet } from '../Constants';
+import { keySet } from '../../../constants';
 import './Keyboard.css';
 
 
