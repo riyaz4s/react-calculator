@@ -30,7 +30,7 @@ const pushHistory = (currentHistory, value) => {
 }
 
 const substitutePercent = (value) => {
-  let result = value.replace(/%/g, '*1/100');
+  let result = value.replace(/%/g, '*1/100*');
   if(value.slice(-1) === '%') {
     result = result.slice(0, result.length-1)
   }
@@ -65,9 +65,6 @@ const handleValue = (value, displayValue, isNewOperation) => {
   switch(value) {
     case 'equals':
       ({ displayValue, completed } = handleEquals(displayValue));
-      break;
-    case '%':
-      ({ displayValue, completed } = handleEquals(`${displayValue}%`));
       break;
     case 'clear':
       displayValue = '0';
