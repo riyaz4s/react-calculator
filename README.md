@@ -1,6 +1,7 @@
 # Calculator appliaction with last 10 history
 
 [Demo](https://riyaz4s.github.io/react-calculator/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
