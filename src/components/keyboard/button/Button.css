@@ -1,0 +1,31 @@
+.key {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 5rem;
+  width: 100%;
+  height: 5rem;
+}
+
+.zero, .decimal {
+  flex: 1
+}
+
+.default-key {
+  color: #d40640;
+}
+
+.equals {
+  background-color: #d40640;
+  color: white;
+  flex: 2;
+}
+
+.operator {
+  color: #ff5124;
+}
+
+.key:hover {
+  background-color: #d40640;
+  color: white;
+  cursor: pointer;
+}
