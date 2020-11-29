@@ -28,7 +28,7 @@ function Calculator() {
   const keyClick = (value) => {
     let displayValue = text;
     if(displayValue === 'Syntax error') {
-      displayValue = ''
+      displayValue = '0'
     }
     if(value === 'equals') {
       displayValue = handleEquals(displayValue);
