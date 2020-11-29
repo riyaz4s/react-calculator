@@ -2,6 +2,8 @@
 
 [Demo](https://riyaz4s.github.io/react-calculator/)
 
+![Screenshot](/public/Screenshot.png?raw=true "Screenshot")
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
